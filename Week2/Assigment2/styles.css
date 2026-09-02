@@ -1,0 +1,41 @@
+body {
+    background-color: #f5f9ff;
+}
+
+p {
+    color: #263238;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+h1{
+    color: #0fc5f3;
+}
+h2{
+    color: #0fc5f3;
+}
+h3{
+    color: #0f9fc4;
+}
+
+header{
+    color : #1e3a5f
+}
+
+th{
+    color: #2f2661;
+    font-size: 20px;
+    font-family: 'monserrat', sans-serif;
+}
+
+td{
+    color: #2f2661;
+    font-family: 'monserrat', sans-serif;
+    text-align: center;
+}
+
+li{
+    color: #2f2661;
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+}

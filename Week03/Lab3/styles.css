@@ -1,0 +1,85 @@
+#main-header{
+    color: black;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 2px dashed rgb(191, 230, 99);
+}
+
+/* This is the body style, which sets the background color, font family, font size, and text color for the entire page, it helps. */
+
+body{
+    background-color: #3f47b6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:rgb(51, 250, 200);
+} 
+
+.Arroz-chaufa{
+    width: 500px; 
+    height: 250px;
+}
+.Maracuya-Juice{
+    width: 300px;
+    height: 250px;
+}
+
+/* In this part, I just added margin and border styles. */
+
+.CSI{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px outset rgb(235, 40, 40);
+}
+
+/* I got some troubles here, because I couldn't find the correct selector for the image, in this case the position of the image, but I managed to style it anyway. */
+
+.table-decoration{
+    color: rgb(226, 142, 142);
+    margin: auto;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* In this part, I separate 2 different classes, depending of the image size, but keeping the same margin, border and padding styles. */
+
+.image1-decoration{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 1.5px dashed red;
+    padding: 10px;
+}
+.image2-decoration{
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    border: 1.5px dashed red;
+    padding: 10px;
+}
+/* In this part, I separate the footer text style from the rest of the styles. because is specific to the footer section. */
+.footer-text {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(173, 124, 236);
+}
+
+/* Here I design the style of the links on the page. */
+
+a:link {
+    color:rgb(247, 99, 54);
+    
+}
+
+a:visited{
+    color:rgb(255, 238, 0);
+}
+
+a:hover {
+    color:aqua;
+    text-decoration: double;
+    text-shadow: 10cm;
+    font-size: 24px;
+}

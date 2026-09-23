@@ -13,7 +13,7 @@ else if (score >= 70) {
 else {
     console.log("The score you have is: F");
 }
-
+// Age Check
 let age=Number(prompt("What is your age?"));
 if (age >= 18) {
     console.log("Adult.");
@@ -21,7 +21,7 @@ if (age >= 18) {
 else {
     console.log("Minor.");
 }
-
+// Custom Check
 let discount=prompt("What membership do you have?").toUpperCase().toLowerCase();
 if (discount === "GOLD") {
     console.log("You get a 45% discount.");

@@ -22,6 +22,7 @@ function greet(name){
 }
 
 greet("Said"); // "Said is the argument"
+greet("John"); // "John is the argument"
 
 // Function that will add two numbers together
 // Then console the total

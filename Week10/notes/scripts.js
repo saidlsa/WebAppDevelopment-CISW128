@@ -33,7 +33,7 @@ mainSection.style.backgroundColor="#f0f0f0"
 const paragraphs=document.querySelectorAll("p")
 //Loop through all p elements and change their text
 paragraphs.forEach((para, index) => {
-    para.textContent = `Paragraph ${index + 1} modified by querySelectorAll()`;
+    para.textContent = `Paragraph ${index + 1} modified by querySelectorAll()`; 
     para.style.color = "blue";
 });
 

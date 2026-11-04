@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title> <!-- Fill in: page title -->
+  <link rel="stylesheet" href="style.css"> <!-- CSS file name -->
+</head>
+<body>
+  <h1>Contact Us for an emergency</h1> <!-- Fill in: heading text -->
+
+  <form id="emergencyform"> <!-- Give your form an id -->
+    <label for="name">Name:</label> <!-- text input for the name of the emergency contact -->
+    <input id="name" type="text" placeholder="Your name" required />
+    <br />
+    <label for="phone">Phone:</label> <!-- text input for the phone number of the emergency contact -->
+    <input id="phone" type="text" placeholder="Your phone number" required />
+    <br />
+    <label for="relationship">Relationship:</label> <!-- text input for the relationship of the emergency contact -->
+    <input id="relationship" type="text" required />
+    <br />
+    <label for="email">Email:</label> <!-- text input for the email of the emergency contact -->
+    <input id="email" type="email" placeholder="you@example.com" required />
+    <br />
+
+    <label for="note">Note:</label> <!-- text area for the note of the emergency contact -->
+    <textarea id="note" rows="4" placeholder="Write something that we need to know..."></textarea>
+    <br />
+
+    <button type="submit">Submit</button> <!-- Button type and text -->
+  </form>
+
+  <section id="result"></section> <!-- Section to display results -->
+
+  <script src="script.js"></script> <!-- JS file name -->
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgba(207, 214, 107, 0.678);
+  color: #693333;
+  padding: 1rem;
+}
+
+/* The 'dark' theme we will toggle later */
+.dark {
+  background: #353333;
+  color: #fff;
+}

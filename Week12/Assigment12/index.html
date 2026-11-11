@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>Said's Pizza</h1>
+      <p>Build your pizza and we'll have it hot for pickup.</p>
+    </header>
+
+    <p>Fill out the form below to place your order. All fields are required.</p>
+
+    <form id="pizzaform">
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input id="phone" type="text" placeholder="Enter your phone number" required>
+        <br>
+        <label for="address">Address:</label>
+        <input id="address" type="text" placeholder="Enter your address" required>
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <br>
+        <p> Now, let's choose your pizza size:</p>
+        <label for="size">Size:</label>
+            <select id="size" required>
+                <option value="">Select size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+        <br>
+        <label for="toppings">Toppings:</label>
+        <label class="choice"><input type="checkbox" name="toppings" value="Pepperoni"> Pepperoni</label>
+        <label class="choice"><input type="checkbox" name="toppings" value="Mushrooms"> Mushrooms</label>
+        <label class="choice"><input type="checkbox" name="toppings" value="Basil"> Basil</label>
+        <label class="choice"><input type="checkbox" name="toppings" value="Olives"> Olives</label>
+        <label class="choice"><input type="checkbox" name="toppings" value="Extra cheese"> Extra cheese</label>
+
+        <br>
+        <label for="notes">Special instructions</label>
+      <textarea id="notes" name="notes" rows="3" placeholder="Well done, light sauce, ring the bell..."></textarea>
+    <button type="submit">Submit Order</button>    
+    </form>
+    
+    
+    <section id="result"></section>
+    <script src="script.js" defer></script>
+</body>
+</html>

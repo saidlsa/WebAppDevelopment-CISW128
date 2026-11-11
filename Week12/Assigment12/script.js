@@ -23,3 +23,11 @@ form.addEventListener("submit", function(event) {
         <p><strong>Special Instructions:</strong> ${notes}</p>
     `;
 });
+
+// ------------------------------------------------------------
+// In this case, Javascript is preventing the default action of the form submission, which would normally cause the page to refresh. 
+// This allows us to handle the form data and display it without losing the current state of the page. 
+// Also, .value returns the current value of the input element, which is what the user has entered into the input field.
+// Template literals (`${}`) are used instead of string concatenation because they allow embedding expressions directly within strings, 
+// making the code more readable and easier to maintain. They also support multi-line strings, which is useful for formatting the output in a more structured way.
+// -------------------------------------------------------------

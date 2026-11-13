@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+            max-width: 400px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+
+    <!-- novalidate lets my JavaScript show the error messages instead of the browser -->
+    <form id="contactForm" novalidate>
+
+        <!-- Name field. It begins with a label and an input element -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <p id="nameError" class="error"></p>
+
+        <!-- Email field. In this part we use the email input type which provides basic validation -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="example@email.com" required>
+        <p id="emailError" class="error"></p>
+
+        <!-- Age field. Here we use a number input with a minimum value of 1 -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="1" placeholder="Enter your age" required>
+        <p id="ageError" class="error"></p>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- General success message. This is where the success message will be displayed after form submission -->
+    <p id="successMessage"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
